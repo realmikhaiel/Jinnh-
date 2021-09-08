@@ -9,7 +9,7 @@ const Config = require('../config')
 // Hisham Muhammed 
 const INBO = "Inbox Not Allowed!"
  if (Config.INBO == 'true') {
-Hisham.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true }, (async (message, match) => {
+Asena.addCommand({on: 'text', fromMe: false, delownsewcmd: false, onlyPm: true }, (async (message, match) => {
         let regexb1ichu = new RegExp('.')
         let regexb2ichu = new RegExp('a')
         let regexb3ichu = new RegExp('e')
