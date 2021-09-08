@@ -31,7 +31,7 @@ module.exports = {
     SONGU: process.env.SONGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGU,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     OWNRN: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
-    INBO: process.env.INBOX_BLOCK === undefined ? 'true' : process.env.INBOX_BLOCK,
+    INBO: process.env.INBOX_BLOCK === undefined ? 'false' : process.env.INBOX_BLOCK,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
