@@ -3,7 +3,7 @@ Codded by @Mikhaiel_Offical
 */
 
 const {MessageType, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
-const cobra = require('../events');
+const Asena = require('../events');
 const Config = require('../config');
 const cobranpm = require('cobrabot');
 const axios = require('axios')
@@ -16,7 +16,7 @@ if (Config.LANG == 'SI') CLR_DESC = 'Downloads videos from Facebook.', wr = '*Pl
 if (Config.LANG == 'EN') CLR_DESC = 'Downloads videos from Facebook.', wr = '*Please Enter a Valid Video Link!*'
 
 
-cobra.addCommand({pattern: 'fb ?(.*)', fromMe: wk, desc: CLR_DESC, usage: 'fb https://www.facebook.com/Google/videos/10156367314197838'}, (async (message, match) => {
+Asena.addCommand({pattern: 'fb ?(.*)', fromMe: wk, desc: CLR_DESC, usage: 'fb https://www.facebook.com/Google/videos/10156367314197838'}, (async (message, match) => {
   var reg = new RegExp(/^http(?:s?):\/\/(?:www\.|web\.|m\.)?facebook\.com\/([A-z0-9\.]+)\/videos(?:\/[0-9A-z].+)?\/(\d+)(?:.+)?$/, 'gm')
   var is_valid = reg.test(match[1])
   if (!is_valid) return await message.client.sendMessage(message.jid, wr, MessageType.text)
