@@ -11,7 +11,7 @@ const FIND_DESC = "Find the song."
 
 if (Config.WORKTYPE == 'private') {
 
-Asena.addCommand({pattern: 'shazam', fromMe: true, desc: FIND_DESC }, (async (message, match) => {
+Asena.addCommand({pattern: 'find', fromMe: true, desc: FIND_DESC }, (async (message, match) => {
     if (message.reply_message === false) return await message.client.sendMessage(message.jid, '*Reply to audio to search*', MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
@@ -47,7 +47,7 @@ Asena.addCommand({pattern: 'shazam', fromMe: true, desc: FIND_DESC }, (async (me
 
 else if (Config.WORKTYPE == 'public') {
     
-    Asena.addCommand({pattern: 'shazam', fromMe: false, desc: FIND_DESC }, (async (message, match) => {
+    Asena.addCommand({pattern: 'find', fromMe: false, desc: FIND_DESC }, (async (message, match) => {
     if (message.reply_message === false) return await message.client.sendMessage(message.jid, '*Reply to mp3 audio to search *', MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
