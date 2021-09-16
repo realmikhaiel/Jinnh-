@@ -66,6 +66,11 @@
             "required": true,
             "value": "false"
         },
+        "TALKING_JINN": {
+            "description": " Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
         "BOT_NAME": {
             "description": "give a name you disire to give your bot (for auto reply jimbrootan to identify)",
             "required": false,
