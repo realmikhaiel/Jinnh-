@@ -11,7 +11,7 @@ const got = require('got');
 const Language = require('../language');
 const Lang = Language.getString('weather');
 
-Asena.addCommand( { pattern: 'news ?(.*)', fromMe: true, desc: "News in malayalam." }, async (message, match) => {
+Asena.addCommand( { pattern: 'news ?(.*)', fromMe: false, desc: "News in malayalam." }, async (message, match) => {
     let { result } = await getJson('https://untitled-1ouyr1rszhaw.runkit.sh/news')
     return await message.client.sendMessage(message.jid, MessageType.text);
   });
