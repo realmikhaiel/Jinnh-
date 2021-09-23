@@ -14,7 +14,7 @@ const Lang = Language.getString('whatsappstatus');
 
 if (Config.WORKTYPE == 'private') {
 
-    Ktb.addCommand({pattern: 'status', fromMe: true, desc: Status Video}, (async (message, match) => {
+    Ktb.addCommand({pattern: 'status', fromMe: true, desc: 'Status Video'}, (async (message, match) => {
         
      var reply = await message.client.sendMessage(message.jid,' 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚂𝚃𝙰𝚃𝚄𝚂 🚀 ',MessageType.text);
  
@@ -40,7 +40,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Ktb.addCommand({pattern: 'status', fromMe: false, desc: Status Video}, (async (message, match) => {
+    Ktb.addCommand({pattern: 'status', fromMe: false, desc: 'Status Video'}, (async (message, match) => {
         
       var reply = await message.client.sendMessage(message.jid,' Downloading Whatsapp Status',MessageType.text);
  
