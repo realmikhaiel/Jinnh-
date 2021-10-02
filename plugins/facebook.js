@@ -1,4 +1,4 @@
-const Neotro = require('../events');
+const Asena = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -10,7 +10,7 @@ var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
 
 
-Neotro.addCommand({pattern: 'help', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'help', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 // send a list message!
     const rows = [
         {title: 'NEW VERSION', description: "VERSION 3 COMMING SOON.\n\n\nhttps://github.com/Mikhaiel/Jinnh- ", rowId:" rowid1"},
