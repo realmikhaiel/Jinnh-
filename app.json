@@ -5,7 +5,7 @@
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/Mikhaiel/Jinnh",
     "website":   "under maintenance",
-    "success_url": "under maintenance",
+    "success_url": "under maintenance.",
     "stack": "container",
     "env": {
         "JIMBROOTAN_SESSION": {
