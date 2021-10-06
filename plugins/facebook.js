@@ -12,19 +12,17 @@ var ddd = ggg.toString('utf-8')
 
 Asena.addCommand({pattern: 'help', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 // send a list message!
-    const rows = [
-        {title: 'NEW VERSION', description: "VERSION 3 COMMING SOON.\n\n\nhttps://github.com/Mikhaiel/Jinnh- ", rowId:" rowid1"},
-       ]
-       
-       const sections = [{title: "𝘫𝘪𝘮𝘣𝘳𝘰𝘰𝘵𝘢𝘯", rows: rows}]
-       
-       const button = {
-        buttonText: '★彡[ᴄʟɪᴄᴋ]彡★',
-        description: "★彡[ᴏꜰꜰɪᴄᴀʟ ᴋɪɴɢ ʟᴏᴀᴅɪɴɢ]彡★",
-        sections: sections,
-        listType: 1
-       }
-       
+    const buttons = [
+  {buttonId: 'test', buttonText: {displayText: 'Button 1'}, type: 1},
+  {buttonId: 'test', buttonText: {displayText: 'Button 2'}, type: 1}
+]
+
+const buttonMessage = {
+    contentText: "Hi it's button message",
+    footerText: 'Hello World',
+    buttons: buttons,
+    headerType: 1
+}  
        await message.client.sendMessage(message.jid, button, MessageType.listMessage)
     
     }));
