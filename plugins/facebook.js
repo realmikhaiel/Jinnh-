@@ -10,7 +10,7 @@ var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
 
 
-Asena.addCommand({pattern: 'help', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'help', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 // send a list message!
     const buttons = [
   {buttonId: 'test', buttonText: {displayText: 'Button 1'}, type: 1},
