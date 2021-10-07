@@ -10,7 +10,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Language = require('../language');
 const Lang = Language.getString('weather');
-const json = JSON.parse(response.body);
+const json = Json
 
 	Jimbru.addCommand({ pattern: 'news ?(.*)', fromMe: true, desc: "News in malayalam." }, async (message, match) => {
     let { result } = await getJson('https://untitled-1ouyr1rszhaw.runkit.sh/news')
