@@ -24,7 +24,7 @@ const Lang = Language.getString('weather');
 Author : ${author}\n
 Lyrics : ${lyrics}` + '```', { quoted: message.data });
 });
-	} catch {
+	  catch {
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDC, MessageType.text);
 	}
 });
