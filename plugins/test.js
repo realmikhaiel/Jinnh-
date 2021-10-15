@@ -22,7 +22,7 @@ Asena.addCommand({pattern: 'news', fromMe: false, desc: Lang.TET_DESC}, (async (
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━ NEW AUDIO UPDATING SOON ━*
+    await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━ Check Daily For News Update's ━*
 ▪️ *കോവിഡിൽ ആശ്വസകണക്ക്; ടിപിആർ 11.15 ശതമാനം: മരണം 67*
 
 ▪️ *കാണാതായ രണ്ടരവയസുകാരന്‍ കുളത്തില്‍ വീണ് മരിച്ചു*
