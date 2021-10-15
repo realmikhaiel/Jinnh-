@@ -8,7 +8,7 @@ const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'public') {
-Asena.addCommand({pattern: 'news', fromMe: true, desc: Lang.TET_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'news', fromMe: false, desc: Lang.TET_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
     
