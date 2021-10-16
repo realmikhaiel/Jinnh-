@@ -1,4 +1,3 @@
-
 const Asena = require('../events');
 const Config = require('../config');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -23,17 +22,16 @@ Asena.addCommand({pattern: 'news', fromMe: false, desc: Lang.TET_DESC}, (async (
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━ Check Daily For News Update's ━*
-                
-🅾➖🅾➖🅾➖🅾➖🅾➖🅾
+                🅾➖🅾➖🅾➖🅾➖🅾➖🅾
 
 
 
-               _*പ്രഭാത വാർത്തകൾ*_
+                _*പ്രഭാത വാർത്തകൾ*_
 
 
-                 _*2021  ഒക്ടോബർ 16*_
-                 _*1197  കന്നി 30*_
-                 _*1443 റബീഉൽ അവ്വൽ 09*_
+                _*2021  ഒക്ടോബർ 16*_
+                _*1197  കന്നി 30*_
+                _*1443 റബീഉൽ അവ്വൽ 09*_
 
 
                         _*ശനി*_
