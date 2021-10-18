@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 WhatsAsenaDuplicated*/
 
 
-*/*
+/*
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
@@ -50,7 +50,7 @@ Asena.addCommand({pattern: 'modapp ?(.*)', fromMe: false, desc: 'get mod apk fro
 	}
 });
 }
-*/*
+*/
 	
  const jimbru = require('../events');
 
