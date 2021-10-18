@@ -80,7 +80,7 @@ else mode = '𝘧𝘰𝘳𝘸𝘢𝘳𝘥𝘦𝘥 𝘣𝘺 ' + Config.OWNRN
 
             }
 
-Rashi.addcommand({pattern: 'mforward ?(.*)', fromMe: true, desc: 'its foraward replied audio'}, (async (message, match) => {    
+jimbru.addcommand({pattern: 'mforward ?(.*)', fromMe: true, desc: 'its foraward replied audio'}, (async (message, match) => {    
 
     if (message.reply_message === false);
 
