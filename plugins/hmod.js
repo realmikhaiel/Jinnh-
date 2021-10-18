@@ -70,7 +70,7 @@ if (Config.OWNRN == 'default') mode = '𝘫𝘪𝘮𝘣𝘳𝘰𝘰𝘵𝘵𝘢�
 
 else mode = '𝘧𝘰𝘳𝘸𝘢𝘳𝘥𝘦𝘥 𝘣𝘺 ' + Config.OWNRN
 
-            const jimbru = {
+            const jimbroo = {
 
                   key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "jimbroottan", "caption": mode , 'jpegThumbnail': fs.readFileSync('./Media/image/logo.jpg')}}
 
@@ -126,7 +126,7 @@ let id = match[1];
 
         .on('end', async () => {
 
-            await message.client.sendMessage(id, fs.readFileSync('output.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true, quoted: jimbru,contextInfo: { forwardingScore: 2, isForwarded: true}});
+            await message.client.sendMessage(id, fs.readFileSync('output.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true, quoted: jimbroo,contextInfo: { forwardingScore: 2, isForwarded: true}});
 
 });
 
