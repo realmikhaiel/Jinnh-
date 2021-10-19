@@ -12,6 +12,5 @@ Jimbru.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from
     if (!status) return await message.sendMessage('not found')
     await message.client.sendMessage(message.jid, LOAD_ING, MessageType.text, { quoted: message.data });
     if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "Made By Jimbru", quoted: message.data })
-    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "Made By Jimbru
-", quoted: message.data })
+    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "Made By Jimbru", quoted: message.data })
 });
