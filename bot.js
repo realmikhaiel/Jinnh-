@@ -17,7 +17,7 @@ const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const got = require('got');
 const axios = require('axios');
-
+Const lowercasekeys = require("lowercase-keys");
 // Sql
 const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
     info: {
