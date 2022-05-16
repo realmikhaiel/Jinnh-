@@ -41,7 +41,7 @@
     "cwebp-bin": "^6.1.1",
     "tinyurl": "^1.1.7",
     "dotenv": "^16.0.0",
-    "tiktok-scraper": "1.4.20",
+    "tiktok-scraper": "1.4.36",
     "request": "2.88.2",
     "exchange-rates-api": "^1.0.2",
     "fluent-ffmpeg": "^2.1.2",
