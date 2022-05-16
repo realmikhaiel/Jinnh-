@@ -1,8 +1,8 @@
 {
-  "name": "WhatsAsenaDuplicated",
+  "name": "Jimbru v2",
   "version": "1.3.2",
   "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./WhatsAsenaDuplicated/bot.js",
+  "main": "./bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
