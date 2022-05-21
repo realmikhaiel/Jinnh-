@@ -50,7 +50,7 @@
     "google-translate-tts": "^0.3.0",
     "got": "^12.0.4",
     "heroku-client": "^3.1.0",
-    "jimp": "0.16.0",
+    "jimp": "0.16.1",
     "js-ffmpeg": "0.0.36",
     "jsdom": "^19.0.0",
     "langs": "^2.0.0",
