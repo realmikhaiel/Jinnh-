@@ -2,7 +2,7 @@
   "name": "Jimbrootan",
   "version": "7.3.6",
   "description": ".",
-  "main": "./Jinnh/bot.js",
+  "main": "./Jimbrootan/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
